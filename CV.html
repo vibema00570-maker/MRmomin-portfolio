@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Momin Ali - Professional Resume</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background-color: #f4f5f7;
+            color: #333333;
+            line-height: 1.5;
+            padding: 30px;
+        }
+        .cv-container {
+            max-width: 850px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            display: flex;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            min-height: 1100px;
+            position: relative;
+            overflow: hidden;
+        }
+        /* Top Decorative Shapes like the image */
+        .cv-container::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 230px;
+            height: 40px;
+            background-color: #1a2e40;
+        }
+        /* LEFT COLUMN (Sidebar) */
+        .left-column {
+            width: 32%;
+            background-color: #ffffff;
+            padding: 60px 20px 30px 20px;
+            border-right: 1px solid #e2e8f0;
+        }
+        /* RIGHT COLUMN (Main Content) */
+        .right-column {
+            width: 68%;
+            padding: 60px 30px 30px 30px;
+            background-color: #ffffff;
+        }
+        /* Headings & Names */
+        .candidate-name {
+            font-size: 38px;
+            color: #1a2e40;
+            text-transform: uppercase;
+            font-weight: 800;
+            letter-spacing: 1px;
+            line-height: 1.1;
+        }
+        .candidate-title {
+            font-size: 15px;
+            color: #7f8c8d;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            margin-top: 5px;
+            margin-bottom: 40px;
+            font-weight: 600;
+        }
+        /* Section Titles inside Columns */
+        .sidebar-title {
+            font-size: 14px;
+            color: #ffffff;
+            background-color: #1a2e40;
+            text-transform: uppercase;
+            padding: 5px 10px;
+            margin-bottom: 15px;
+            font-weight: bold;
+            letter-spacing: 1px;
+            text-align: center;
+        }
+        .main-title {
+            font-size: 15px;
+            color: #ffffff;
+            background-color: #1a2e40;
+            text-transform: uppercase;
+            padding: 6px 15px;
+            margin-bottom: 20px;
+            font-weight: bold;
+            letter-spacing: 1.5px;
+        }
+        .sidebar-section {
+            margin-bottom: 30px;
+        }
+        .main-section {
+            margin-bottom: 35px;
+        }
+        /* Text Styles */
+        .about-text {
+            font-size: 13px;
+            color: #4a5568;
+            text-align: justify;
+            margin-bottom: 20px;
+        }
+        .contact-info {
+            font-size: 13px;
+            color: #4a5568;
+            margin-bottom: 10px;
+            word-break: break-all;
+        }
+        .contact-info strong {
+            color: #1a2e40;
+        }
+        /* Lists and Items */
+        .bullet-list {
+            list-style: none;
+            padding-left: 5px;
+        }
+        .bullet-list li {
+            font-size: 13px;
+            color: #4a5568;
+            margin-bottom: 8px;
+            position: relative;
+            padding-left: 12px;
+        }
+        .bullet-list li::before {
+            content: "•";
+            color: #1a2e40;
+            font-weight: bold;
+            position: absolute;
+            left: 0;
+        }
+        /* Experience & Education Block */
+        .info-block {
+            margin-bottom: 20px;
+            padding-left: 5px;
+        }
+        .info-header {
+            display: flex;
+            justify-content: space-between;
+            font-weight: bold;
+            font-size: 15px;
+            color: #1a2e40;
+        }
+        .info-sub {
+            color: #7f8c8d;
+            font-style: italic;
+            font-size: 13px;
+            margin-bottom: 6px;
+        }
+        .info-block ul {
+            margin-left: 15px;
+        }
+        .info-block li {
+            font-size: 13px;
+            color: #4a5568;
+            margin-bottom: 5px;
+        }
+
+        /* Profile image styling */
+        .profile-img-placeholder {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 4px solid #1a2e40;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto 25px auto;
+        }
+        .profile-img-placeholder img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="cv-container">
+        
+        <!-- LEFT COLUMN (SIDEBAR) -->
+        <div class="left-column">
+            <!-- Profile Picture -->
+            <div class="profile-img-placeholder">
+                <img src="MominAli2.jpg" alt="Momin Ali">
+            </div>
+
+            <!-- About Me -->
+            <div class="sidebar-section">
+                <div class="sidebar-title">About Me</div>
+                <p class="about-text">
+                  Dedicated and highly motivated professional with a strong interest in Frontend Development and E-Commerce. Committed to continuous learning, adaptability, and delivering high-quality work while growing professionally in a dynamic and challenging environment.
+                </p>
+            </div>
+
+            <!-- Contact Information -->
+            <div class="sidebar-section">
+                <div class="contact-info">📍 New Karachi, Karachi</div>
+                <div class="contact-info">📞 +92 316 2368270</div>
+                <div class="contact-info">✉️ mominalii00570@gmail.com</div>
+            </div>
+
+            <!-- Languages -->
+            <div class="sidebar-section">
+                <div class="sidebar-title">Languages</div>
+                <ul class="bullet-list">
+                    <li>Urdu (Native)</li>
+                    <li>English</li>
+                </ul>
+            </div>
+
+            <!-- Soft Skills (Left Space Fill Karne Ke Liye) -->
+            <div class="sidebar-section">
+                <div class="sidebar-title">Soft Skills</div>
+                <ul class="bullet-list">
+                    <li>Problem Solving</li>
+                    <li>Team Collaboration</li>
+                    <li>Time Management</li>
+                    <li>Adaptability</li>
+                </ul>
+            </div>
+
+            <!-- Profiles / Links -->
+            <div class="sidebar-section">
+                <div class="sidebar-title">Profiles</div>
+                <div class="contact-info"><strong>GitHub:</strong> github.com/mominali</div>
+                <div class="contact-info"><strong>LinkedIn:</strong> linkedin.com/in/mominali</div>
+            </div>
+        </div>
+
+        <!-- RIGHT COLUMN (MAIN CONTENT) -->
+        <div class="right-column">
+            
+            <!-- Candidate Name & Title -->
+            <div class="candidate-name">Momin Ali</div>
+            <div class="candidate-title">Frontend Developer | Angular | JavaScript | Responsive UI</div>
+
+            <!-- Professional Summary -->
+            <div class="main-section">
+                <div class="main-title">Professional Summary</div>
+                <p style="font-size: 13.5px; color: #4a5568; text-align: justify; padding-left: 5px;">
+                    Seeking a challenging career opportunity in a fast-paced and professional environment where I can utilize my skills, achieve meaningful results, and continue to develop my career. I am committed to continuous learning and dedicated to expanding my professional knowledge and capabilities. My goal is to consistently deliver high-quality work, adapt effectively to new challenges and organizational standards, and contribute positively to a dynamic team through hard work, punctuality, and enthusiasm.
+                </p>
+            </div>
+
+            <!-- Technical Skills (Expertise) -->
+            <div class="main-section">
+                <div class="main-title">Expertise</div>
+                <ul class="bullet-list" style="display: grid; grid-template-columns: 1fr 1fr; padding-left: 5px; gap: 5px;">
+                    <li>HTML, CSS, JavaScript</li>
+                    <li>Angular & Bootstrap</li>
+                    <li>C# .NET & SQL Server</li>
+                    <li>Git & GitHub</li>
+                    <li>Shopify Store Management</li>
+                    <li>Product Content & SEO</li>
+                    <li>Canva & AI Design Tools</li>
+                    <li>MS Office & Data Management</li>
+                </ul>
+            </div>
+
+            <!-- Experience -->
+            <div class="main-section">
+                <div class="main-title">Experience</div>
+                
+                <div class="info-block">
+                    <div class="info-header">
+                        <span>Data Entry Officer</span>
+                        <span style="font-weight: 500; font-size: 13px; color: #7f8c8d;">08 Months</span>
+                    </div>
+                    <div class="info-sub">Samaviya Industries (Industrial Area)</div>
+                    <ul>
+                        <li>Accurately processed and maintained critical business records in company sheets with high precision.</li>
+                        <li>Organized and managed digital databases using MS Office tools to enhance operational efficiency.</li>
+                        <li>Identified and corrected data discrepancies to ensure database integrity.</li>
+                    </ul>
+                </div>
+
+                <div class="info-block">
+                    <div class="info-header">
+                        <span>Shopify Product Content Specialist</span>
+                        <span style="font-weight: 500; font-size: 13px; color: #7f8c8d;">Present</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Education -->
+            <div class="main-section">
+                <div class="main-title">Education</div>
+                <div class="info-block" style="margin-bottom: 12px;">
+                    <div class="info-header">
+                        <span>Intermediate in Commerce</span>
+                        <span style="font-weight: 500; font-size: 13px; color: #7f8c8d;">In Progress</span>
+                    </div>
+                    <div class="info-sub">Board of Intermediate Education Karachi (BIEK)</div>
+                </div>
+                <div class="info-block">
+                    <div class="info-header">
+                        <span>Matriculation</span>
+                        <span style="font-weight: 500; font-size: 13px; color: #7f8c8d;">Completed</span>
+                    </div>
+                    <div class="info-sub">Board of Secondary Education Karachi (BSEK)</div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+</html>
